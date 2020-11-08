@@ -1,0 +1,14 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+}
+#canvas {
+    float: left;
+    width: 200px;
+    height: 150px;
+    padding: 5px;
+}
