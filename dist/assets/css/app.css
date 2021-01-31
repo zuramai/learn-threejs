@@ -6,12 +6,45 @@
 
 body {
   height: 100vh;
+  font-family: 'Poppins';
 }
 
 #canvas {
   float: left;
-  width: 200px;
-  height: 150px;
-  padding: 5px;
+  height: 100%;
+  float: right;
+  outline: none;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  right: 0;
+}
+
+#hero {
+  background-color: #2e2e28;
+  height: 768px;
+  position: relative;
+  padding-top: 10rem;
+}
+
+#hero h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+  color: #d4d4ca;
+}
+
+#hero p {
+  margin-bottom: 2rem;
+  color: #aca9a2;
+  font-size: 1.2rem;
+}
+
+#hero button {
+  border: 1px solid #acaaa7;
+  background-color: transparent;
+  color: #acaaa7;
+  padding: 1rem 2rem;
+  border-radius: .7rem;
 }
 

@@ -5,10 +5,39 @@
 }
 body {
     height: 100vh;
+    font-family: 'Poppins';
 }
 #canvas {
     float: left;
-    width: 200px;
-    height: 150px;
-    padding: 5px;
+    height: 100%;
+    float: right;
+    outline:none;
+    position: absolute;
+    top: 0;
+    z-index: 0;
+    right: 0;
+}
+#hero {
+    background-color: #2e2e28;
+    height: 768px;
+    position: relative;
+    padding-top: 10rem;
+    h1 {
+        font-size: 4rem;
+        font-weight: 900;
+        margin-bottom: 2rem;
+        color: rgb(212, 212, 202);
+    }
+    p {
+        margin-bottom: 2rem;
+        color: rgb(172, 169, 162);
+        font-size: 1.2rem;
+    }
+    button {
+        border: 1px solid rgb(172, 170, 167);
+        background-color: transparent;
+        color: rgb(172, 170, 167);
+        padding: 1rem 2rem;
+        border-radius: .7rem;
+    }
 }
